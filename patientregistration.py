@@ -25,7 +25,7 @@ def connect(ip_address, port1, username, password, database, values, identifier_
     elif gender == 'Female':
         gender = 'Female'
     else:
-        gender = 'Female'
+        gender = 'Unknown'
 
     birthdate = values['birthdate']
     todaydate = datetime.today().strftime('%Y-%m-%d')
